@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent rocky_linux
 
   stages {
     stage('Build') {
